@@ -1,0 +1,10 @@
+{
+  "name": "taximan-multiplayer",
+  "version": "1.0.0",
+  "description": "Realtime 2-player room server for Jamaican Taxi Man (WebSockets)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node test.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "ws": "^8.18.0" },
+  "license": "MIT"
+}
